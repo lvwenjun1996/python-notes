@@ -6,7 +6,7 @@
 3. 内置类中，bool，int，float，str，tuple，frozenset为不可变类；list，set，dict为可变类。
 4. int（）默认返回0， float（）默认返回0.0， bool（）默认返回False, list（）默认产生空列表， set（）默认产生空集合。
 ## 二. python 运算符：
-1. 运算符的语义取决于其操作数的类型。
+1. 运算符的语义取决于其操作数的类型，如"+"号对数字表示求和，对字符串表示拼接。
 2. 若q = n // m，r = n % m，保证n = q * m + r，对于小数，负数也适用。
 3. 对于a += b和a = a + b，前者不改变a的原id，后者改变a的id。
 ## 三. python 函数：
